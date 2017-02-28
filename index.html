@@ -6,8 +6,9 @@
 		
 	<script language="javascript" type="text/javascript">
  		 function afficher(id_div) {
-  			$('#'+id_div).hide();
+  			$('#'+id_div).toggle();
  		 }
+		
 		 function rafraichir(id_div) {
   			$('#'+id_div).show();
  		 }
@@ -38,7 +39,8 @@
 		<div class ="h1">
 		<div id="Competences">
 		<h1>Competences techniques
-		<button style="font-size: 50%;" onclick="afficher('Competences')";>cacher</button>
+			
+		<button id ="bouton" style="font-size: 50%;" onclick="afficher('Competences')";>cacher</button>
 		<button style="font-size: 50%;" onclick="rafraichir('Competences')";>rafraichir</button>
 		</h1>
 		</div>
