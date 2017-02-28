@@ -1,7 +1,26 @@
 
-
-  body{color:block; background-color: rgba(0, 0, 0, 0); margin: 40px;}
 	
-	h2{color:blue; font-size:40px; font-family:'Times New Roman';}
+	.page{
+		width : 950px;
+		margin : auto;
+		font-size : 16px;
+		font-family : 'Source sans Pro', calibri, Tahoma, sans-serif;
+		background-color: GhostWhite;
+	}
+	.infophoto{
+		height : 200px;
+	}
+	.info{
+		float : left;
+	}
+	.photo{
+		float : right;
+		width : 150px;
+		height: 150px;
+	}
 	
-	.mon-images{width: 200px; height: 200px; }
+	.h1{
+		background-color: #5882FA;
+		color : black;
+	}
+	
