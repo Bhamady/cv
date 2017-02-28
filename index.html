@@ -5,13 +5,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		
 	<script language="javascript" type="text/javascript">
- 	 function afficher(id_div) {
-  		$(id_div).toggle();
- 	 }
-  </script>
-		<link rel="stylesheet" type="text/css" href="Barry.css">
+ 		 function afficher(id_div) {
+  			$(id_div).toggle();
+ 		 }
+  	</script>
+	<link rel="stylesheet" type="text/css" href="Barry.css">
         <title>Mon CV</title>
 	</head>
+	
 	<body>
 		<div id ="moi"></div>
 		<div class= "page">
@@ -49,7 +50,9 @@
 		</ul>
 			
 		<div class ="h1">
-		<h1>Experiences professionnelles</h1>
+		<h1>Experiences professionnelles
+		<button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button>
+		</h1>
 		</div>
 		<h3> 2016(6 mois)Modélisation,développement et optimisation(Altran)</h3>
 		Realisation :<br>
@@ -76,7 +79,9 @@
 		</ul>
 		<div class ="h1">
 		<div id="Formations">
-		<h1>Formations</h1>
+		<h1>Formations
+		<button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button>
+		</h1>
 		</div>
 		</div>
 		<ul>
@@ -87,7 +92,9 @@
 		</ul>
 		<div class ="h1">
 		<div id="Centre d'interet">
-		<h1>Centre d'interet</h1>
+		<h1>Centre d'interet
+		<button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button>
+		</h1>
 		</div>
 		</div>
 		<ul>
