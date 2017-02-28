@@ -8,6 +8,9 @@
  		 function afficher(id_div) {
   			$('#'+id_div).hide();
  		 }
+		 function rafraichir(id_div) {
+  			$('#'+id_div).show();
+ 		 }
   	</script>
 	<link rel="stylesheet" type="text/css" href="Barry.css">
         <title>Mon CV</title>
@@ -36,6 +39,7 @@
 		<div id="Competences">
 		<h1>Competences techniques
 		<button style="font-size: 50%;" onclick="afficher('Competences')";>cacher</button>
+		<button style="font-size: 50%;" onclick="rafraichir('Competences')";>rafraichir</button>
 		</h1>
 		</div>
 		</div>
@@ -53,6 +57,7 @@
 		<div id="Experiences">
 		<h1>Experiences professionnelles
 		<button style="font-size: 50%;" onclick="afficher('Experiences');">cacher</button>
+		<button style="font-size: 50%;" onclick="rafraichir('Experiences')";>rafraichir</button>
 		</h1>
 		</div>
 		</div>
@@ -82,7 +87,8 @@
 		<div class ="h1">
 		<div id="Formations">
 		<h1>Formations
-		<button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button>
+		<button style="font-size: 50%;" onclick="afficher('Formations')";>cacher</button>
+		<button style="font-size: 50%;" onclick="rafraichir('Formations')";>rafraichir</button>
 		</h1>
 		</div>
 		</div>
@@ -95,7 +101,8 @@
 		<div class ="h1">
 		<div id="Centre d'interet">
 		<h1>Centre d'interet
-		<button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button>
+		<button style="font-size: 50%;" onclick="afficher('Centre d'interet')";>cacher</button>
+		<button style="font-size: 50%;" onclick="rafraichir('Centre d'interet')";>rafraichir</button>
 		</h1>
 		</div>
 		</div>
